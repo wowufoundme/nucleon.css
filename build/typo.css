@@ -1,0 +1,181 @@
+/*
+-------------------------------------------------------------------------------
+  Typo.css
+  Can be overwritten by custom css
+-------------------------------------------------------------------------------
+*/
+
+/*
+-------------------------------------------------------------------------------
+  Typography here is based on the modern scale provided by Typecast
+  with little alterations
+  Personally, I think they are to the point in creating
+  scalable and readable font-sizes
+  http://typecast.com/blog/a-more-modern-scale-for-web-typography
+  All rights reserved.
+-------------------------------------------------------------------------------
+*/
+
+/*
+  Body uses a default font of 16px over a line-height of 24px
+  Every other classes/tags use fonts on the basis of 'rem'
+  over 16px = 1em || 24px = 1.5em
+*/
+body {
+  font: normal 16px/24px 'Helvetica Neue','Arial',sans-serif; 
+  font-size: 100%;
+  text-rendering: optimizeLegibility; /* Make text easier for reading */
+}
+
+p,
+a,
+blockquote {
+  font-weight: normal;
+}
+
+/*
+-------------------------------------------------------------------------------
+  Headers 
+  Overwrite headers with a header class corresponding 
+  to their names such as .h-*
+-------------------------------------------------------------------------------
+*/
+h1 {
+  font-size: 3rem;
+  line-height: 1.125rem;
+  margin: .75rem 0; 
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.25rem;
+    margin: .25rem 0;
+  }
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.25rem;
+  margin: .5rem 0; 
+}
+
+@media (max-width: 720px) {
+  h2 {
+    font-size: 1.625rem;
+    line-height: 1.15rem;
+    margin: .15rem 0;
+  }
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: .25rem 0;
+}
+
+@media (max-width: 720px) {
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: .15rem 0;
+  } 
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.25rem;
+}
+
+@media (max-width: 720px) {
+  h3 {
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+  }
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.22222222rem;
+}
+
+@media (max-width: 720px) {
+  h4 {
+    line-height: 1.11111111rem;
+  }
+}
+
+h5 {
+  font-size: 1.1rem;
+  line-height: 1.15rem;
+}
+
+@media (max-width: 720px) {
+  h5 {
+    line-height: 1.11111111rem;
+  }
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.15rem;
+}
+
+@media (max-width: 720px) {
+  h6 {
+    line-height: 1.11111111rem;
+  }
+}
+
+/*
+  Paragraphs
+*/
+p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: .5rem .25rem;
+}
+
+/*
+  Blockquote
+*/
+blockquote {
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  padding: 1.25rem 2.25rem;
+  border-left: 10px solid #999;
+}
+
+/*
+  Code
+*/
+code {
+  font-family: 'monospace', sans-serif;
+  background-color: #e7e7e7;
+  color: #141414;
+  font-size: .75em;
+  padding: .25em;
+}
+
+code.terminal {
+  background-color: #141414;
+  color: #b1d750;
+}
+
+/*
+  Links
+*/
+
+a {
+  font-size: 1rem;
+  line-height: inherit;
+  transition: color .2s linear;
+  color: #1F3A93;
+}
+
+a:hover {
+  text-decoration: underline;
+}

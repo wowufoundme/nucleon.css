@@ -1,0 +1,44 @@
+/*
+-------------------------------------------------------------------------------
+  Utilities.css
+  Basic small utilities for better working
+-------------------------------------------------------------------------------
+*/
+
+/*
+  Clearfix
+*/
+
+.clrfix,
+.clrfix:before,
+.clrfix::before,
+.clrfix:after,
+.clrfix::after {
+  content: '';
+  display: table;
+}
+
+.clrfix:after,
+.clrfix::after {
+  clear: both;
+}
+
+/*
+  Text Alignment 
+*/
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
