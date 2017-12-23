@@ -15,6 +15,16 @@ All combined into two versions:
 1. nucleon.css
 2. nucleon.min.css
 
+# v1.0.1
+  - Added floats : left|right
+  - Added aligns : left|right|justify|center
+  - Added clearfix for floats
+  
+# v1.0.0
+  - Initial commit
+  - Grid 
+  - Typography
+
 Feel free to use, edit and play with it.
 Open to suggestions.
 Licensed under MIT.
