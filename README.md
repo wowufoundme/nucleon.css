@@ -4,7 +4,7 @@ Currently in its developing stage, nucleon.css is a small, light weight CSS star
 
 All the components have been put in different files, so you can use only the required ones.
 Whereas nucleon.css combines all into one.
-A minifies version is preferable if you don't have to make many changes, but simple version can be used to customize stuff.
+A minified version is preferable if you don't have to make many changes, but simple version can be used to customize stuff.
 
 ## Contents
 
