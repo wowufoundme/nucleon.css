@@ -17,16 +17,16 @@ All combined into two versions:
 
 # v1.0.1
 
-  - Added floats : left|right
-  - Added aligns : left|right|justify|center
+  - Added aligns : left | right | justify | center
+  - Added floats : left | right
   - Added clearfix for floats
-  
+
 # v1.0.0
 
-  - Initial commit
   - Grid 
   - Typography
-
+  - Initial commit
+  
 Feel free to use, edit and play with it.
 Open to suggestions.
 Licensed under MIT.
