@@ -1,20 +1,32 @@
-# nucleon.css (v1.0.0)
+# nucleon.css
 
-nucleon is finally here.
+Currently in its developing stage, nucleon.css is a small, light weight CSS starter kit for responsive grid layout and typography. It includes small utilities and basic reset to help you kick start any project.
 
-Currently in its developing stage,
-nucleon.css is a small, light weight CSS starter kit for responsive grid layout and typography.
+## Contents
 
-Currently it contains: 
-1. Reset
-2. Grid
-3. Typography
-3. Utilities
+```
+Reset
+Grid
+Typography
+Utilites
+```
 
-All combined into two versions: 
-1. nucleon.css
-2. nucleon.min.css
+## Changelog
 
-Feel free to use, edit and play with it.
-Open to suggestions.
-Licensed under MIT.
+### v1.0.1
+  * Added floats - left | right
+  * Added text aligns - left | right | justify | center
+  * Added cleafix for floats
+
+### v1.0.0
+  * Initial commit/version
+  * Basic reset, grid and
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+  * Typecast (for typography)
+  * Me (star if you like)
