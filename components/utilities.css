@@ -8,7 +8,6 @@
 /*
   Clearfix
 */
-
 .clrfix,
 .clrfix:before,
 .clrfix::before,
@@ -26,7 +25,6 @@
 /*
   Text Alignment 
 */
-
 .text-center {
   text-align: center;
 }

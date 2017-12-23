@@ -1,0 +1,290 @@
+/*
+ *  -------------------------------------------------------------------------------
+ *  nucleon.css v1.0.0 (https://github.com/wowufoundme/nucleon.css)
+ *  Website: http://shubhkirtisharma.com/nucleon
+ *  Copyright 2017 | Shubhkirti Sharma
+ *  Licensed by MIT
+ *  -------------------------------------------------------------------------------
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility; }
+
+html, 
+body {
+  width: 100%;
+  height: 100%; } 
+
+a,
+a:hover,
+a:link,
+a:visited,
+a:focused {
+  text-decoration: none;
+  color: inherit; }
+
+header,
+section,
+main,
+aside {
+  display: block; }
+
+/*
+-------------------------------------------------------------------------------
+  Grid Layout
+-------------------------------------------------------------------------------
+*/
+/* You can also customize the container properties by overriding them. */
+.container {
+  margin: 1rem auto;
+  width: 94%;
+  max-width: 72em;
+  display: flex;
+  flex-wrap: wrap;
+  color: #000; }
+@media all and (max-width:60em) {
+  .container {
+    max-width: 58em; } }
+@media (max-width:45em) {
+  .container {
+    max-width: 42em; } }
+
+/*
+  Default Styles for grid layouts
+  No margin or padding specified
+*/
+.n-grid { 
+  position: relative;
+  float: left;
+  display: block;
+  height: 100%; }
+
+/* Use full width instead of 2-2,3-3,4-4,5-5,6-6 */
+.n-full { width: 100%; }
+.n-1-2 { width: 50%; }
+.n-1-3 { width: 33.3333333%; }
+.n-2-3 { width: 66.6666666%; }
+.n-1-4 { width: 25%; }
+.n-2-4 { width: 50%; }
+.n-3-4 { width: 75%; }
+.n-1-5 { width: 20%; }
+.n-2-5 { width: 40%; }
+.n-3-5 { width: 60%; }
+.n-4-5 { width: 80%; }
+.n-1-6 { width: 16.6666666%; }
+.n-2-6 { width: 33.3333333%; }
+.n-3-6 { width: 50%; }
+.n-4-6 { width: 66.6666666%; }
+.n-5-6 { width: 83.3333333%; }
+
+/*
+  __l extension in grid means for large screens
+  960px and above is considered for laptop screens mostly
+*/
+@media (max-width: 60em) {
+  .n-1-2__l { width: 50%; }
+  .n-1-3__l { width: 33.3333333%; }
+  .n-2-3__l { width: 66.6666666%; }
+  .n-1-4__l { width: 25%; }
+  .n-2-4__l { width: 50%; }
+  .n-3-4__l { width: 75%; }
+  .n-1-5__l { width: 20%; }
+  .n-2-5__l { width: 40%; }
+  .n-3-5__l { width: 60%; }
+  .n-4-5__l { width: 80%; }
+  .n-1-6__l { width: 16.6666666%; }
+  .n-2-6__l { width: 33.3333333%; }
+  .n-3-6__l { width: 50%; }
+  .n-4-6__l { width: 66.6666666%; }
+  .n-5-6__l { width: 83.3333333%; } }
+
+/*
+  __md extension in grid means for medium screens
+  720px is considered for tablets
+*/
+@media (max-width: 45em) {
+  .n-1-2__md { width: 100%; }
+  .n-1-3__md,
+  .n-2-3__md { width: 100%; }
+  .n-1-4__md,
+  .n-2-4__md,
+  .n-3-4__md { width: 100%; }
+  .n-1-5__md,
+  .n-2-5__md,
+  .n-3-5__md,
+  .n-4-5__md { width: 100%; }
+  .n-1-6__md,
+  .n-2-6__md,
+  .n-3-6__md,
+  .n-4-6__md,
+  .n-5-6__md { width: 100%; } }
+
+/*
+  __sm extension in grid means for small screens
+  480px is considered for phones
+*/
+@media (max-width: 30em) {
+  .n-1-2__sm { width: 100%; }
+  .n-1-3__sm,
+  .n-2-3__sm { width: 100%; }
+  .n-1-4__sm,
+  .n-2-4__sm,
+  .n-3-4__sm { width: 100%; }
+  .n-1-5__sm,
+  .n-2-5__sm,
+  .n-3-5__sm,
+  .n-4-5__sm { width: 100%; }
+  .n-1-6__sm,
+  .n-2-6__sm,
+  .n-3-6__sm,
+  .n-4-6__sm,
+  .n-5-6__sm { width: 100%; } }
+
+/*
+-------------------------------------------------------------------------------
+  Typography
+  Can be overwritten by custom css
+-------------------------------------------------------------------------------
+*/
+
+/*
+-------------------------------------------------------------------------------
+  Typography here is based on the modern scale provided by Typecast
+  with little alterations
+  Personally, I think they are to the point in creating
+  scalable and readable font-sizes
+  http://typecast.com/blog/a-more-modern-scale-for-web-typography
+  All rights reserved.
+-------------------------------------------------------------------------------
+*/
+
+/*
+  Body uses a default font of 16px over a line-height of 24px
+  Every other classes/tags use fonts on the basis of 'rem'
+  over 16px = 1em || 24px = 1.5em
+*/
+body {
+  font: normal 16px/24px 'Helvetica Neue','Arial',sans-serif; 
+  font-size: 100%;
+  text-rendering: optimizeLegibility; /* Make text easier for reading */ }
+
+p,
+a,
+blockquote { font-weight: normal; }
+
+/*
+-------------------------------------------------------------------------------
+  Headers 
+  Overwrite headers with a header class corresponding 
+  to their names such as .h-*
+-------------------------------------------------------------------------------
+*/
+h1 {
+  font-size: 3rem;
+  line-height: 1.125rem;
+  margin: .75rem 0;  }
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.25rem;
+    margin: .25rem 0; } }
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.25rem;
+  margin: .5rem 0; }
+
+@media (max-width: 720px) {
+  h2 {
+    font-size: 1.625rem;
+    line-height: 1.15rem;
+    margin: .15rem 0; } }
+
+h3,
+h4,
+h5,
+h6 { margin: .25rem 0; }
+
+@media (max-width: 720px) {
+  h3,
+  h4,
+  h5,
+  h6 { margin: .15rem 0; } }
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.25rem; }
+
+@media (max-width: 720px) {
+  h3 {
+    font-size: 1.375rem;
+    line-height: 1.375rem; } }
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.22222222rem; }
+
+@media (max-width: 720px) {
+  h4 { line-height: 1.11111111rem; } }
+
+h5 {
+  font-size: 1.1rem;
+  line-height: 1.15rem; }
+
+@media (max-width: 720px) {
+  h5 { line-height: 1.11111111rem; } }
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.15rem; }
+
+@media (max-width: 720px) {
+  h6 { line-height: 1.11111111rem; } }
+
+/*
+  Paragraphs
+*/
+p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: .5rem .25rem; }
+
+/*
+  Blockquote
+*/
+blockquote {
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  padding: 1.25rem 2.25rem;
+  border-left: 10px solid #999; }
+
+/*
+  Code
+*/
+code {
+  font-family: 'monospace', sans-serif;
+  background-color: #e7e7e7;
+  color: #141414;
+  font-size: .75em;
+  padding: .25em; }
+
+code.terminal {
+  background-color: #141414;
+  color: #b1d750; }
+
+/*
+  Links
+*/
+
+a {
+  font-size: 1rem;
+  line-height: inherit;
+  transition: color .2s linear;
+  color: #1F3A93; }
+
+a:hover { text-decoration: underline; }

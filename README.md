@@ -2,13 +2,17 @@
 
 Currently in its developing stage, nucleon.css is a small, light weight CSS starter kit for responsive grid layout and typography. It includes small utilities and basic reset to help you kick start any project.
 
+All the components have been put in different files, so you can use only the required ones.
+Whereas nucleon.css combines all into one.
+A minifies version is preferable if you don't have to make many changes, but simple version can be used to customize stuff.
+
 ## Contents
 
 ```
-Reset
-Grid
-Typography
-Utilites
+Reset (components/reset.css)
+Grid (components/grid.css)
+Typography (components/typo.css)
+Utilites (components/utilities.css)
 ```
 
 ## Changelog
@@ -26,4 +30,6 @@ Utilites
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Open Source
+Open Source Project (2017)
+
+[Shubhkirti Sharma](http://shubhkirtisharma.com)
