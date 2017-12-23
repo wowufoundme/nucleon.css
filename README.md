@@ -20,7 +20,7 @@ Utilites
 
 ### v1.0.0
   * Initial commit/version
-  * Basic reset, grid and
+  * Basic reset, grid and typography
 
 ## License
 
