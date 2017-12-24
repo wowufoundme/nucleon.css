@@ -27,6 +27,7 @@ a{
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     z-index: -1;
     animation: colorTransition 20s infinite linear;
 }
@@ -63,6 +64,7 @@ a{
     font-size: 3rem;
     line-height: 4rem;
     margin-bottom: 1.6rem;
+    transition: transform 2s ease;
 }
 
 .set-mono{
@@ -74,6 +76,11 @@ a{
     font-size: 1.2rem;
     line-height: 2rem;
     margin: 1rem 0;
+}
+
+.heading__xs{
+  font-size: 0.8rem;
+  margin: 1rem 0;
 }
 
 .nav{
