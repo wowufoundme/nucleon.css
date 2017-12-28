@@ -9,10 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>nucleon.css</title>
     <link href="assets/styles.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/hamburger.css" rel="stylesheet" media="all">
     <link href="assets/ionicons.min.css" rel="stylesheet" media="all"> 
     <link href="https://fonts.googleapis.com/css?family=Karla|Space+Mono" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="./assets/nucleon.png">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-105800923-1', 'auto');
+      ga('send', 'pageview');
+    </script>
     <!--Fallback for IE-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,7 +33,17 @@
 
 <body>
 
-    <div class="header header__large header__display__large">
+    <!-- <div class="sidebar">
+        <div class="sidebar-toggle">
+            <div class="hamburger hamburger--collapse">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="header header__large nav-space">
         
         <div class="header__container">
             
@@ -35,7 +54,7 @@
                 <a class="btn set-mono" href="https://github.com/wowufoundme/nucleon.css">
                     <span class="ion-social-github"></span>&nbsp;Github
                 </a>
-                <a class="btn set-mono" href="https://github.com/wowufoundme/wowufoundme.github.io/raw/master/nucleon/assets/nucleon.css.zip">
+                <a class="btn set-mono" href="https://github.com/wowufoundme/nucleon.css/raw/master/archive/nucleon.css.zip">
                   <span class="ion-android-arrow-down"></span>&nbsp;Download v1.0.1
               </a>
             </div>
@@ -49,16 +68,20 @@
 
     </div>
 
-    <div class="main__wrapper">
-        <!-- <div class="documentation">
+    <!-- <div class="main__wrapper nav-space">
+        <div class="documentation">
             <div class="content__heading">Contents</div>
-            <div class=""></div>
-            <div class="docs reset-section"></div>
+            <div class="docs reset-section">
+                <h2>Reset Section</h2>
+                <div class="content">
+                    nucleon.css consists of basic 
+                </div>
+            </div>
             <div class="docs grid-section"></div>
             <div class="docs typo-section"></div>
             <div class="docs utilities-section"></div>
-        </div> -->
-    </div>
+        </div>
+    </div> -->
 
     <script src="assets/script.js"></script>
 </body>

@@ -12,6 +12,7 @@ a {
   text-decoration: none; }
 
 .header__large {
+  background-color: #5D83FA;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -23,8 +24,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
-  animation: colorTransition 20s infinite linear; }
+  z-index: -1; }
 
 @keyframes colorTransition {
   0% {
@@ -50,14 +50,13 @@ a {
   100% {
     background-color: #3498db; } }
 .header__container {
-  width: 100%;
+  width: 94%;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  text-align: center;
   height: 100vh;
-  padding: 6rem 8rem;
+  padding-left: 50px;
   color: #ffffff; }
 
 .heading__large {
@@ -111,13 +110,13 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: .2rem .3rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 5px;
   transition: all .2s ease; }
   .btn:hover {
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.8); }
+    background-color: #454F9D;
+    border: 1px solid #454F9D; }
 
 @media all and (max-width: 720px) {
   .btn {
@@ -140,17 +139,46 @@ a {
   .header__container {
     max-width: 94%;
     margin: 0 auto;
-    padding: 6rem .75rem; } }
+    padding: 4rem .75rem; } }
 .main__wrapper {
   background-color: #fff;
   color: #000000;
   z-index: 1;
-  margin: 0 auto;
+  margin: 0;
   margin-top: 500px;
-  max-width: 960px; }
+  padding-left: 100px !important;
+  height: 900px; }
 
 .documentation {
-  padding: 2rem;
   height: 100%; }
+
+.nav-space {
+  padding-left: 50px; }
+
+.docs h2 {
+  font-weight: lighter;
+  padding: 1.2rem 0; }
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  top: 0;
+  z-index: 9999;
+  background-color: #444;
+  color: #fff;
+  transform: translateX(-200px);
+  transition: all .2s linear; }
+  .sidebar .sidebar-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition: all .1s linear; }
+
+.is-open {
+  transform: translateX(0); }
 
 /*# sourceMappingURL=styles.css.map */
