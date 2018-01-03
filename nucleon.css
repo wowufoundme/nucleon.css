@@ -1,8 +1,8 @@
 /*
  *  -------------------------------------------------------------------------------
- *  nucleon.css v1.0.1 (https://github.com/wowufoundme/nucleon.css)
+ *  nucleon.css v1.0.2 (https://github.com/wowufoundme/nucleon.css)
  *  Website: http://shubhkirtisharma.com/nucleon
- *  Copyright 2017 | Shubhkirti Sharma
+ *  Copyright 2018 | Shubhkirti Sharma
  *  Licensed by MIT
  *  -------------------------------------------------------------------------------
  */
@@ -296,17 +296,16 @@ a:hover { text-decoration: underline; }
 -------------------------------------------------------------------------------
 */
 
-/*Clearfix */ 
-.clrfix,
-.clrfix:before,
-.clrfix::before,
+/*
+  Clearfix
+  Add this class to the container containing the floats
+*/
 .clrfix:after,
 .clrfix::after {
   content: '';
-  display: table; }
-
-.clrfix:after,
-.clrfix::after { clear: both; }
+  display: block;
+  clear: both;
+  visibility: hidden; }
 
 /* Text Alignment */
 .text-center { text-align: center; }

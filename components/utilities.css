@@ -7,19 +7,15 @@
 
 /*
   Clearfix
+  Add this class to the container containing the floats
 */
-.clrfix,
-.clrfix:before,
-.clrfix::before,
-.clrfix:after,
-.clrfix::after {
-  content: '';
-  display: table;
-}
 
 .clrfix:after,
 .clrfix::after {
+  content: '';
+  display: block;
   clear: both;
+  visibility: hidden;
 }
 
 /*
