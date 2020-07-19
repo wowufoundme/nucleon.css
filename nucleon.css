@@ -13,10 +13,10 @@
   box-sizing: border-box;
   text-rendering: optimizeLegibility; }
 
-html, 
+html,
 body {
   width: 100%;
-  height: 100%; } 
+  height: 100%; }
 
 a,
 a:hover,
@@ -56,7 +56,7 @@ aside {
   Default Styles for grid layouts
   No margin or padding specified
 */
-.n-grid { 
+.n-grid {
   position: relative;
   float: left;
   display: block;
@@ -167,7 +167,7 @@ aside {
   over 16px = 1em || 24px = 1.5em
 */
 body {
-  font: normal 16px/24px 'Helvetica Neue','Arial',sans-serif; 
+  font: normal 16px/24px 'Helvetica Neue','Arial',sans-serif;
   font-size: 100%;
   text-rendering: optimizeLegibility; /* Make text easier for reading */ }
 
@@ -177,8 +177,8 @@ blockquote { font-weight: normal; }
 
 /*
 -------------------------------------------------------------------------------
-  Headers 
-  Overwrite headers with a header class corresponding 
+  Headers
+  Overwrite headers with a header class corresponding
   to their names such as .h-*
 -------------------------------------------------------------------------------
 */
@@ -319,3 +319,15 @@ a:hover { text-decoration: underline; }
   float: right; }
 .n-f-left {
   float: left; }
+
+
+/*
+  Grid Template Layout
+  @TODO: Grid template columns and rows definition
+ */
+
+.grid {
+  display: grid;
+  grid-template-columns: --var-grid-columns;
+  grid-template-rows: --var-grid-rows;
+  grid-gap: 1%; }
