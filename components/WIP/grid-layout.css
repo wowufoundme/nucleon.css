@@ -1,0 +1,11 @@
+/*
+  Grid Template Layout
+  @TODO: Grid template columns and rows definition
+ */
+
+.grid {
+  max-width: 1024px; /* Can be removed as per requirement of the parent body */
+  display: grid;
+  grid-template-columns: --var-grid-columns;
+  grid-template-rows: --var-grid-rows;
+  grid-gap: 2px; }

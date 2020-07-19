@@ -319,15 +319,3 @@ a:hover { text-decoration: underline; }
   float: right; }
 .n-f-left {
   float: left; }
-
-
-/*
-  Grid Template Layout
-  @TODO: Grid template columns and rows definition
- */
-
-.grid {
-  display: grid;
-  grid-template-columns: --var-grid-columns;
-  grid-template-rows: --var-grid-rows;
-  grid-gap: 1%; }
